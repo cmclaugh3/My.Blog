@@ -1,0 +1,35 @@
+---
+title: Car weight and MPG
+author: ~
+date: '2017-06-05'
+slug: second-new-post-in-r-markdown
+categories: []
+tags: []
+---
+
+## Data Table
+
+This is the set of data which includes a the miles per per gallon (mpg), number of cylinders (cyl), and weights (wt) of cars a sample of cars currently on the market. 
+```{r echo=FALSE}
+mtcars[,c(1, 2, 6)]
+```
+
+Mpg is measured in miles/(US)gallons and wt is in thousands.
+
+## Summary of the Data
+
+```{r, echo=FALSE}
+summary(mtcars[, c(1, 6)])
+```
+
+Within this set we see the average mpg of cars is roughly 20.1 mpg and teh average weight is 3,217lbs.
+
+## Effect of Weight on Mpg
+
+
+```{r pressure, echo=FALSE}
+library(ggplot2)
+ggplot(data = mtcars, aes(x =wt , y =mpg, color=cyl )) + geom_point()
+```
+
+Through this plot there is a clear inverse realtionship between the weight of a car and the miles per gallon the car gets. Also noteable is that cars with a higher number of cylinders tend to weigh more.

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Conor McLaughlin</title>
+    <link>/</link>
+    <description>Recent content on Conor McLaughlin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Jun 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Car weight and MPG</title>
+      <link>/2017/06/05/second-new-post-in-r-markdown/</link>
+      <pubDate>Mon, 05 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/06/05/second-new-post-in-r-markdown/</guid>
+      <description>Data Table This is the set of data which includes a the miles per per gallon (mpg), number of cylinders (cyl), and weights (wt) of cars a sample of cars currently on the market.
+## mpg cyl wt ## Mazda RX4 21.0 6 2.620 ## Mazda RX4 Wag 21.0 6 2.875 ## Datsun 710 22.8 4 2.320 ## Hornet 4 Drive 21.4 6 3.215 ## Hornet Sportabout 18.7 8 3.440 ## Valiant 18.</description>
+    </item>
+    
+    <item>
+      <title>First Weekend in Cape Town</title>
+      <link>/2017/06/05/first-new-post-in-plain-markdown/</link>
+      <pubDate>Mon, 05 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/06/05/first-new-post-in-plain-markdown/</guid>
+      <description>#Good Morning Vietnam
+Not entirely sure what I want to write here but it was a good weekend these past few days. We spent Firday afternoon on a nice sunset cruise around the harbor and then got a nice dinner as well after. Saturday morning I was up early for a great day of surfing and then spent the night watching the soccer game.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
+      
+      <guid>/about/</guid>
+      <description>This is a &amp;ldquo;hello world&amp;rdquo; example website for the blogdown package. The theme was forked from @jrutheiser/hugo-lithium-theme and modified by Yihui Xie.</description>
+    </item>
+    
+  </channel>
+</rss>
